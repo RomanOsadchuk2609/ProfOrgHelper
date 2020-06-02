@@ -37,13 +37,15 @@ public class NoteItemView extends ConstraintLayout {
     public void bind(Note note) {
         this.note = note;
         String text = this.note.getTest();
-        if (text.contains("\n")) {
-            text = text.substring(0, text.indexOf('\n'));
+        if (text != null) {
+            if (text.contains("\n")) {
+                text = text.substring(0, text.indexOf('\n'));
+            }
+            if (text.length() >= 40) {
+                text = note.getTest().substring(0, 37).trim() + "...";
+            }
+            noteTitle.setText(text);
         }
-        if (text.length() >= 40) {
-            text = note.getTest().substring(0, 37).trim() + "...";
-        }
-        noteTitle.setText(text);
     }
 
     @Click

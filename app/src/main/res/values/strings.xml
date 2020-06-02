@@ -21,6 +21,10 @@
     <string name="note_text">Текст заметки</string>
     <string name="note">Заметка</string>
     <string name="input_note_text">введите текст заметки</string>
+    <string name="form_info">Для получения материальной помощи необходимо заполнить бланк. Пожалуйста, ознакомьтесь с образцом бланка.</string>
+    <string name="upload">Загрузить</string>
+    <string name="delete">Удалить</string>
+    <string name="math_form">Бланк матпомощи</string>
     <string-array name="education_forms">
         <item>Дневная</item>
         <item>Заочная</item>

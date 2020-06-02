@@ -30,7 +30,6 @@ public class MainActivity extends Activity {
     @AfterViews
     void init() {
         ActiveAndroid.initialize(this);
-        String s = "s";
     }
 
     @Click(R.id.btnGroupList)
@@ -45,7 +44,7 @@ public class MainActivity extends Activity {
 
     @Click(R.id.btnInputForm)
     void onClickBtnInputForm() {
-        Toast.makeText(this, "Input Form", Toast.LENGTH_SHORT).show();
+        MathFormActivity_.intent(MainActivity.this).start();
     }
 
     @Click(R.id.btnNotes)

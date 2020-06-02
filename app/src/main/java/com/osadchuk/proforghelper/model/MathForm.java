@@ -12,32 +12,32 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-@Table(name = "Note")
-public class Note extends Model {
+@Table(name = "MathForm")
+public class MathForm extends Model {
 
     @Column(name = "uri")
-    private String test;
+    private String uri;
 
-    public Note() {
+    public MathForm() {
         super();
     }
 
-    public Note(String test) {
+    public MathForm(String uri) {
         super();
-        this.test = test;
+        this.uri = uri;
     }
 
-    public static List<Note> findAll() {
+    public static List<MathForm> findAll() {
         return new Select()
-                .from(Note.class)
+                .from(MathForm.class)
                 .orderBy("id")
                 .execute();
     }
 
-    public static Note findById(long id) {
+    public static MathForm findFirst() {
         return new Select()
-                .from(Note.class)
-                .where("id = " + id)
+                .from(MathForm.class)
+                .orderBy("id")
                 .executeSingle();
     }
 }
