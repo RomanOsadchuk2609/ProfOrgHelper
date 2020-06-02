@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProfOrgHelper</string>
+    <string name="group_list">Список групы</string>
+    <string name="math_queue">Очередь на матпомощь</string>
+    <string name="input_form">Форма заполнения</string>
+    <string name="notes">Заметки</string>
+    <string name="add_student">Добавить студента</string>
+    <string name="student_info">Информация о студенте</string>
+    <string name="name">ФИО</string>
+    <string name="education_form">Форма обучения</string>
+    <string name="prof_comm">Состоит в профкоме</string>
+    <string name="from_other_city">Иногородний</string>
+    <string name="married">Состоит в браке</string>
+    <string name="children">Дети</string>
+    <string name="family_issues">Семейные обстоятельства</string>
+    <string name="add">Добавить</string>
+    <string name="input_name">Введите ФИО</string>
+    <string name="saved">Данные сохранены</string>
+    <string name="student_name">StudentName</string>
+    <string name="save">Сохранить</string>
+    <string name="note_text">Текст заметки</string>
+    <string name="note">Заметка</string>
+    <string name="input_note_text">введите текст заметки</string>
+    <string-array name="education_forms">
+        <item>Дневная</item>
+        <item>Заочная</item>
+    </string-array>
+</resources>
