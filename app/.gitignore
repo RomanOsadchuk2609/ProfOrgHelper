@@ -1,6 +1,9 @@
 /build
-.idea/
+.idea/*
 /gradle
 /.gradle
 /.idea
+.idea
+.idea/
+.gradle/
 *.im;
