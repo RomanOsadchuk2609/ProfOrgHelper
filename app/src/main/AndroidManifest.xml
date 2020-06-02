@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.osadchuk.proforghelper">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:name="com.activeandroid.app.Application"
         android:allowBackup="true"
@@ -12,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.activity.MathFormActivity_"></activity>
+        <activity android:name=".ui.activity.MathHelpActivity_"></activity>
+        <activity android:name=".ui.activity.MathFormActivity_" />
         <activity android:name=".ui.activity.EditNoteActivity_" />
         <activity android:name=".ui.activity.NotesListActivity_" />
         <activity android:name=".ui.activity.StudentInfoActivity_" />
@@ -31,14 +35,13 @@
             android:value="ProfOrgHelper" />
         <meta-data
             android:name="AA_DB_VERSION"
-            android:value="3" />
+            android:value="7" />
         <meta-data
             android:name="AA_MODELS"
             android:value="com.osadchuk.proforghelper.model.Student,
             com.osadchuk.proforghelper.model.Note,
-            com.osadchuk.proforghelper.model.MathForm" />
+            com.osadchuk.proforghelper.model.MathForm,
+            com.osadchuk.proforghelper.model.MathHelp" />
     </application>
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>

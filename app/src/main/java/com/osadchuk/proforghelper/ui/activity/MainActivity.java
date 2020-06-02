@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 
     @Click(R.id.btnMathQueue)
     void onClickBtnMathQueue() {
-        Toast.makeText(this, "Math Queue", Toast.LENGTH_SHORT).show();
+        MathHelpActivity_.intent(MainActivity.this).start();
     }
 
     @Click(R.id.btnInputForm)

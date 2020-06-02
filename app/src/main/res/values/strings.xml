@@ -25,8 +25,38 @@
     <string name="upload">Загрузить</string>
     <string name="delete">Удалить</string>
     <string name="math_form">Бланк матпомощи</string>
+    <string name="year">Год</string>
+    <string name="month">Месяц</string>
+    <string name="math_help">Матпомощь</string>
     <string-array name="education_forms">
         <item>Дневная</item>
         <item>Заочная</item>
     </string-array>
+    <string-array name="years">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+    <string-array name="months">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string-array name="statuses">
+        <item>Не в очериде</item>
+        <item>В очериде</item>
+        <item>Получил</item>
+    </string-array>
+
 </resources>
